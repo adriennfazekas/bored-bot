@@ -6,9 +6,17 @@
 
 body {
     font-family: 'Encode Sans', sans-serif;
-    background: linear-gradient(to top, #360033, #0b8793);
-}
+    background: #616161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #9bc5c3, #616161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #9bc5c3, #616161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+
+}
+.fun {
+    background: #40E0D0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FF0080, #FF8C00, #40E0D0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .container {
     display: flex;
     flex-direction: column;

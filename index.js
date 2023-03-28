@@ -4,6 +4,7 @@ document.getElementById("btn").addEventListener("click", function() {
     .then(response => response.json())
     .then(data => {
         document.getElementById("activity").textContent = data.activity
+        document.body.classList.add("fun")
     })
 })
 
