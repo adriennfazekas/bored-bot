@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Encode Sans', sans-serif;
+    background: linear-gradient(to top, #360033, #0b8793);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    
+    align-items: center;
+}
+.activity {
+    margin-top: 2em;
+}
+.btn {
+    background-color: red;
+    padding: 4em;
+    border-radius: 50%;
+    margin-top: 4em;
+    cursor: pointer;    
+}
